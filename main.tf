@@ -2,7 +2,7 @@ provider "aws" {
 region = "eu-north-1"
 }
 
-resource "aws_instance" "one" {
+resource "aws_instance" "Archana" {
 count = 4
 ami = "ami-0a2370e7c0f21e179"
 instance_type = "t2.medium"
